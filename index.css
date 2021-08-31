@@ -1,0 +1,29 @@
+
+html{
+    font-family: 'Roboto Mono', monospace;;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;;
+}
+.planYourVisit{
+    background-color:#FF764E;
+}
+
+.learnAboutThePark{
+    background-color:#5ED3EB;
+}
+
+.getInvolved{
+    background-color: #FFCD69;
+}
+
+body{
+    background-color: #DDB9A3;
+}
+body footer{
+    background-color: #F9E7DC;
+}
+
+span{
+    font-weight:bold;
+}
