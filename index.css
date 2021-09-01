@@ -47,7 +47,7 @@ blockquote, q {
     padding:0;
     margin:0;
     max-width: 100%;
-    border: 1px solid gray
+    border: 0px solid gray
 }
   /* PRESETS DONE */
 html{
@@ -78,19 +78,22 @@ nav a{
 .orange{
     background-color:#FF764E;
     font-size:1.6rem;
-    margin-left:10%
+    margin-left:10%;
+    width: 12%;
 }
 
 .blue{
     background-color:#5ED3EB;
     font-size:1.6rem;
-    margin: 0 10%
+    margin: 0 10%;
+    width: 12%;
 }
 
 .yellow{
     background-color: #FFCD69;
     font-size:1.6rem;
     margin-right: 10%;
+    width: 12%;
 }
 a{
     font-family: 'Roboto Mono', monospace;
@@ -120,7 +123,7 @@ a{
     position:absolute;
     top:40%;
 }
-/* titles section */
+
 h1{
     font-family: 'Chelsea Market', cursive;
     font-size:5rem;
@@ -130,22 +133,44 @@ h1{
 /* sectionTwo */
 .sectionTwo{
     background-color: #DDB9A3;
+    padding:01% 3%;
+    text-align: center;
+    margin:2%;
+    color:white;
 }
+
 /* sectionThree */
+.sectionThree{
+    text-align:center;
+}
+.sectionThree img{
+    padding: 2%;
+    width: 20%;
+}
 
 /* footer */
 body footer{
     background-color: #F9E7DC;
 }
 
+footer {
+}
+footer img{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+  }
 .titles{
     text-align:center;
     font-size:1.6rem;
 }
 
-span{
+.sectionThree span{
     font-weight:bold;
+    color:black;
 }
+
+
 section{
     padding:4% 0;
 }
